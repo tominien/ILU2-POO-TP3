@@ -4,7 +4,7 @@ public abstract class Produit {
 	protected String nom;
 	protected Unite unite;
 
-	public Produit(String nom, Unite unite) {
+	protected Produit(String nom, Unite unite) {
 		super();
 		this.nom = nom;
 		this.unite = unite;

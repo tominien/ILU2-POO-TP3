@@ -5,7 +5,7 @@ public enum Unite {
 
 	private String symbole;
 
-	Unite(String symbole) {
+	private Unite(String symbole) {
 		this.symbole = symbole;
 	}
 
